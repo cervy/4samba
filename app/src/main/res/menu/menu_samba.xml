@@ -1,0 +1,78 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".SambaActivity">
+    <item
+        android:id="@+id/action_change_host"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="Hosts"/>
+
+    <item
+        android:id="@+id/action_smb_home"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_smb_home"/>
+    <item
+        android:id="@+id/createFile"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="createfile"/>
+    <item
+        android:id="@+id/action_upload"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="Upload picture"/>
+    <item
+        android:id="@+id/action_upload_video"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="Upload video"/>
+
+    <item
+        android:id="@+id/action_play_video"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="Play Video"/>
+
+    <item
+        android:id="@+id/action_play_video_3rd"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="Play Video by 3RD"/>
+
+    <item
+        android:id="@+id/action_download"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/download"/>
+    <item
+        android:id="@+id/open"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="open"/>
+    <item
+        android:id="@+id/action_create_folder"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="Create folder"/>
+
+    <item
+        android:id="@+id/action_delete_file"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="Delete file"/>
+
+    <item
+        android:id="@+id/action_delete_folder"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="Delete folder"/>
+
+
+    <item
+        android:id="@+id/action_clear"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="Clear Result"/>
+
+</menu>
